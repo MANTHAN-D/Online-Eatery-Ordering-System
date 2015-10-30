@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TableRow
+        android:id="@+id/tableRow_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/textView_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/category4"
+            android:textSize="35sp" />
+
+    </TableRow>
+    
+    
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" >
+
+        <TextView
+            android:id="@+id/textView_head"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Item"
+            android:gravity="center"
+            android:textSize="25sp" />
+        
+        <TextView
+            android:id="@+id/textView_price"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Price"
+            android:gravity="center"
+            android:textSize="25sp" />
+        
+        
+    </TableRow>
+    
+    
+    
+    
+    <TableRow
+        android:id="@+id/tableRow_item1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" >
+
+        <CheckBox
+            android:id="@+id/checkBox_item1"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="20sp"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/textView_price1"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:gravity="center"
+            android:textSize="20sp" />
+        
+    </TableRow>
+    
+    
+    <TableRow
+        android:id="@+id/tableRow_item2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" >
+
+        <CheckBox
+            android:id="@+id/checkBox_item2"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="20sp"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/textView_price2"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:gravity="center"
+            android:textSize="20sp" />
+        
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/tableRow_item3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" >
+
+        <CheckBox
+            android:id="@+id/checkBox_item3"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="20sp"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/textView_price3"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:gravity="center"
+            android:textSize="20sp" />
+        
+    </TableRow>
+
+    
+    <TableRow
+        android:id="@+id/tableRow_item4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" >
+
+        <CheckBox
+            android:id="@+id/checkBox_item4"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="20sp"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/textView_price4"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:gravity="center"
+            android:textSize="20sp" />
+        
+    </TableRow>
+    
+	<TableRow
+        android:id="@+id/tableRow_ordernowbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/button_ordernow"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"            
+            android:text="@string/ordernow" />
+
+    </TableRow>
+
+</LinearLayout>
